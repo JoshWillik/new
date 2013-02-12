@@ -1,0 +1,9 @@
+A simple script used to quickly create new files or projects.
+
+Usage: 
+$ new web page
+$ new c++ header
+$ new web bp #short for boilerplate
+
+Install: 
+sudo sh install.sh
