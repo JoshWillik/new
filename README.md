@@ -34,6 +34,4 @@ Note: in the project template directories, any hidden files are ignored, use for
 
 Support for targeted 'new'-ing (new web template in/this/directory)
 
-Support for recursive project directories
-
 ##Suggestions/comments welcome
