@@ -7,5 +7,6 @@ else
     BINPATH=/usr/bin/new
 fi
 
-mv new.sh $BINPATH
+cp new.sh $BINPATH
+chmod 755 $BINPATH #allows it to execute
 
