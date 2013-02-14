@@ -13,7 +13,7 @@ do
     TOTAL="$TOTAL/$folder"
 done    
 
-rm -rf ~/.new/.tmp #clear temp
+rm -rf ~/.new/.tmp/* #clear temp
 cp -R ~/.new$TOTAL/* ~/.new/.tmp #copy to intermediate location
 find ~/.new/.tmp -type f -name ".*" -delete #strip of hidden files/directories
-cp -R ~/.new/.temp $PWD #copy stripped version of folder
+cp -R ~/.new/.tmp/* $PWD #copy stripped version of folder
