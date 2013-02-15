@@ -13,7 +13,7 @@ fi
 for folder in $@
 do
     TOTAL="$TOTAL/$folder"
-    echo $TOTAL
+   # echo $TOTAL
 done    
 
 
