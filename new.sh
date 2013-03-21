@@ -3,6 +3,8 @@
 if [ ! -d ~/.new ] 
 then
     mkdir ~/.new
+    mkdir ~/.new/example
+    echo "This is an example test page. Run \$new example to clone me to a directory" > ~/.new/example
 fi
 
 if [ ! -d ~/.new/.tmp ] 
@@ -13,7 +15,7 @@ fi
 for folder in $@
 do
     TOTAL="$TOTAL/$folder"
-   # echo $TOTAL
+   # #echo $TOTAL
 done    
 
 

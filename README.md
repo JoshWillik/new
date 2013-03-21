@@ -29,6 +29,7 @@ exists.
 
 Note: in the project template directories, any hidden files are ignored, use for readmes and whatnot
 
+Note: Fully empty ~/.new directory will cause error if run. But then, why are you trying to run new with nothing to copy?
 
 ##Planned features:
 
