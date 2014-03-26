@@ -6,7 +6,7 @@ $ new web page
 
 $ new c++ header
 
-$ new web bp #short for boilerplate
+$ new web bp
 
 
 ##Install: 
